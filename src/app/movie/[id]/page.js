@@ -10,7 +10,7 @@ const Page = async ({params}) => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'c02fbc68bcmshbcf86db29a2c655p12007cjsn9adea8d51505',
+            'X-RapidAPI-Key': '528b25abb1mshb167549adfcfde1p1d5829jsnd4f3ed642ce5',
             'X-RapidAPI-Host': 'netflix54.p.rapidapi.com'
         }
     };

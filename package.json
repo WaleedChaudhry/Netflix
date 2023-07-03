@@ -16,5 +16,17 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thapatechnical/youtubenextwebsite_thapa.git"
+  },
+  "author": "waleed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thapatechnical/youtubenextwebsite_thapa/issues"
+  },
+  "homepage": "https://github.com/thapatechnical/youtubenextwebsite_thapa#readme"
 }
