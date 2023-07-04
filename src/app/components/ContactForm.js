@@ -1,7 +1,7 @@
 'use client'
-
-import styles from "@/app/contact/contact.module.css"
-import {Mulish} from "next/font/google";
+import React from 'react';
+import {styles} from "../contact/contact.module.css";
+import Mulish from "next/font/google";
 import {useState} from "react";
 const mulish = Mulish({
     subsets: ['latin'],
@@ -63,7 +63,7 @@ const ContactForm = () => {
 
 
     return (
-        <form className={styles.contact_form} onSubmit={handleSubmit}>
+        <form className={styles.contact_form} onSubmit={handleSubmit} data-testid="contact-form">
             <div className={styles.input_field}>
                 <label htmlFor="username" className={styles.label}>
                     Enter your name
