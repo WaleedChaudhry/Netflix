@@ -1,16 +1,19 @@
 'use client'
-import React from 'react';
-import {styles} from "../contact/contact.module.css";
-import Mulish from "next/font/google";
+import styles from "../contact/contact.module.css";
+import {Mulish} from "next/font/google";
 import {useState} from "react";
-const mulish = Mulish({
-    subsets: ['latin'],
-    display: 'swap',
-    weight: ['300', '400', '500', '600', '700', '800', '900']
-})
+
 
 
 const ContactForm = () => {
+
+    const mulish = Mulish({
+        subsets: ['latin'],
+        display: 'swap',
+        adjustFontFallback: false,
+        weight: ['300', '400', '500', '600', '700', '800', '900']
+    })
+    
     const[user, setUser] = useState({
         username:"",
         email:"",

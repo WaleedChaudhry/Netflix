@@ -1,4 +1,5 @@
 import { render, fireEvent } from '@testing-library/react';
+import React from "react";
 import ContactForm from '../components/ContactForm';
 
 test('submits form data to the API endpoint', () => {
