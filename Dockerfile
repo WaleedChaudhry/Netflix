@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Define the command to run your app using npm run dev
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "dev",0.0.0.8080]
